@@ -23,9 +23,6 @@ def writeFile(fileName, new):
 	with open(fileName, 'w') as f:
 		for line in new:
 			f.write(line + '\n')
-		
-		
-
 
 def main():
 	lines = readFile('input.txt')
@@ -33,8 +30,3 @@ def main():
 	writeFile('output.txt', new)
 
 main()
-
-# with open ('output.txt', 'w') as f:
-
-# for words in lines:
-# 	if 'Allen' or 'Tom' in words:
